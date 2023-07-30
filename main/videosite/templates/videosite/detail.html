@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'videosite/css/style_detail.css' %}">
+</head>
+<body>
+    <header class="head">
+        {% if user.is_authenticated %}
+        <div class="left-menu">
+            <div class="logo"><a href="{% url 'update_url' pk=user.pk %}"><img src="{{ user.profile.photo.url }}" alt="#" class="logo"></a></div>
+            <div class="all-my">
+                <a href="{% url 'home' %}" class="all_video">Всі відео</a>
+                <a href="#" class="my_video">Мої відео</a>
+            </div>
+        </div>
+        {% else %}
+        <div class="left-menu">
+            <div class="all-my">
+                <a href="{% url 'register_url' %}" class="all_video">Зареєструватися</a>
+                <a href="{% url 'login_url' %}" class="my_video">Увійти</a>
+            </div>
+        </div>
+        {% endif %}
+    </header>
+
+    <div class="main">
+        <div class="video1 video">
+            <video controls width="300">
+                <source src="{{ video.video.url }}" type="video/mp4">
+            </video>
+            <p>{{ video.name }}</p>
+            <p>Автор - {{ video.author }}</p>
+            <p>Дата публікації: {{ video.date.date }}</p>
+            {% if video.author == user %}
+                <a href="{% url 'delete_url' video.pk %}">Видалити відео</a>
+            {% endif %}
+        </div>
+    </div>
+
+</body>
+</html>
