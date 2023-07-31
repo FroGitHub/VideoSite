@@ -1,20 +1,21 @@
 from django.contrib.auth import login, logout
 from django.contrib.auth.views import LoginView
-from django.shortcuts import render, redirect
+from django.shortcuts import redirect
 from django.urls import reverse_lazy
-from django.views.generic import TemplateView, ListView, CreateView, DetailView, DeleteView, UpdateView
+from django.views.generic import ListView, CreateView, DetailView, DeleteView, UpdateView
 from .models import *
 from .forms import *
 
 
-class Home(ListView):
+# ====================================================(All classes of the Videos are below)
+class Home(ListView):  # Default list
     template_name = 'videosite/home.html'
     model = VideoModel
     context_object_name = 'videos'
     paginate_by = 3
 
 
-class MyVideo(ListView):
+class MyVideo(ListView):  # My videos
     template_name = 'videosite/home.html'
     model = VideoModel
     context_object_name = 'videos'
@@ -22,7 +23,7 @@ class MyVideo(ListView):
 
     def get_queryset(self):
         author = self.request.user
-        return VideoModel.objects.filter(author=author)
+        return VideoModel.objects.filter(author=author)  # Filter for my video
 
 
 class CreateVideoPage(CreateView):
@@ -41,20 +42,20 @@ class CreateVideoPage(CreateView):
         return super().form_valid(form)
 
 
-class DetailsPage(DetailView):
+class DetailsPage(DetailView):  # Page after click on prev
     template_name = 'videosite/detail.html'
     model = VideoModel
     context_object_name = 'video'
     slug_url_kwarg = "slug_v"
 
 
-class VideoDeletePage(DeleteView):
+class VideoDeletePage(DeleteView):  # Delete page
     template_name = 'videosite/deleteform.html'
     model = VideoModel
     success_url = reverse_lazy('home')
 
 
-# ====================================================(Все про користувача нижче)
+# ====================================================(All classes of Profile are below)
 
 
 class RegisterPage(CreateView):
@@ -94,7 +95,7 @@ def logout_user(request):
     return redirect('home')
 
 
-class UpdatePage(UpdateView):
+class UpdatePage(UpdateView):  # Change profile`s foto
     template_name = 'videosite/formpage.html'
     model = ProfileModel
     fields = ['photo']

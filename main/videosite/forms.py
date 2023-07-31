@@ -3,6 +3,8 @@ from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
 from .models import *
 
 
+# ====================================================(All forms of the videos are below)
+
 class CreateVideoForm(forms.ModelForm):
     class Meta:
         model = VideoModel
@@ -15,10 +17,15 @@ class CreateVideoForm(forms.ModelForm):
         }
 
 
+# =================================================================================(All forms of the Profile are below)
+
 class RegisterForm(UserCreationForm):
-    username = forms.CharField(label="Ім'я", widget=forms.TextInput(attrs={'class': 'text', 'placeholder': 'login'}))
-    password1 = forms.CharField(label='Пароль', widget=forms.PasswordInput(attrs={'class': 'text', 'placeholder': 'password1'}))
-    password2 = forms.CharField(label='Повтор паролю', widget=forms.PasswordInput(attrs={'class': 'text', 'placeholder': 'password2'}))
+    username = forms.CharField(label="Ім'я", widget=forms.TextInput(attrs={'class': 'text',
+                                                                           'placeholder': 'login'}))
+    password1 = forms.CharField(label='Пароль', widget=forms.PasswordInput(attrs={'class': 'text',
+                                                                                  'placeholder': 'password1'}))
+    password2 = forms.CharField(label='Повтор паролю', widget=forms.PasswordInput(attrs={'class': 'text',
+                                                                                         'placeholder': 'password2'}))
 
     class Meta:
         model = User
@@ -26,5 +33,7 @@ class RegisterForm(UserCreationForm):
 
 
 class LoginForm(AuthenticationForm):
-    username = forms.CharField(label='name', widget=forms.TextInput(attrs={'class': 'text', 'placeholder': 'login'}))
-    password = forms.CharField(label='pass', widget=forms.PasswordInput(attrs={'class': 'text', 'placeholder': 'password'}))
+    username = forms.CharField(label='name', widget=forms.TextInput(attrs={'class': 'text',
+                                                                           'placeholder': 'login'}))
+    password = forms.CharField(label='pass', widget=forms.PasswordInput(attrs={'class': 'text',
+                                                                               'placeholder': 'password'}))

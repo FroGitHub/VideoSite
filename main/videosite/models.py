@@ -2,6 +2,11 @@ from django.contrib.auth.models import User
 from django.db import models
 from django.urls import reverse
 
+#            user:            password:
+# User       Sonya            assfw132
+# User       Andriy           assfw132
+# Admin:     123              123
+# ====================================================(Model of the Profiles)
 
 class ProfileModel(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE, related_name='profile', verbose_name='юзер')
@@ -9,6 +14,8 @@ class ProfileModel(models.Model):
 
     def __str__(self):
         return self.user.username
+
+# ====================================================(Model of the Videos)
 
 
 class VideoModel(models.Model):
