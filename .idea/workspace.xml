@@ -2,58 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6553938b-6f82-4873-8ecb-0556d940ac3e" name="Changes" comment="">
-      <change afterPath="D:/VideoSite/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="D:/VideoSite/main/videosite/templates/videosite/headers/head_for_forms.html" afterDir="false" />
+      <change afterPath="D:/VideoSite/main/videosite/templates/videosite/headers/head_for_pages.html" afterDir="false" />
       <change beforePath="D:/VideoSite/.idea/workspace.xml" beforeDir="false" afterPath="D:/VideoSite/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="D:/VideoSite/main/db.sqlite3" beforeDir="false" />
-      <change beforePath="D:/VideoSite/main/media/prev_photo/239691_1678123148.jpg" beforeDir="false" />
-      <change beforePath="D:/VideoSite/main/media/prev_photo/IMG_20230609_225529_970.jpg" beforeDir="false" />
-      <change beforePath="D:/VideoSite/main/media/prev_photo/IMG_20230609_225529_970_8dJraTZ.jpg" beforeDir="false" />
-      <change beforePath="D:/VideoSite/main/media/prev_photo/IMG_20230609_225529_970_9wPmyb7.jpg" beforeDir="false" />
-      <change beforePath="D:/VideoSite/main/media/prev_photo/IMG_20230609_225529_970_FHUIHK0.jpg" beforeDir="false" />
-      <change beforePath="D:/VideoSite/main/media/prev_photo/IMG_20230609_225529_970_P5K7Dnz.jpg" beforeDir="false" />
-      <change beforePath="D:/VideoSite/main/media/prev_photo/IMG_20230609_225529_970_X9QgUot.jpg" beforeDir="false" />
-      <change beforePath="D:/VideoSite/main/media/prev_photo/IMG_20230609_225529_970_wp1eHbc.jpg" beforeDir="false" />
-      <change beforePath="D:/VideoSite/main/media/prev_photo/IMG_20230609_225529_970_yvddRgg.jpg" beforeDir="false" />
-      <change beforePath="D:/VideoSite/main/media/prev_photo/OIG.C.pgjdtK.jfif" beforeDir="false" />
-      <change beforePath="D:/VideoSite/main/media/prev_photo/OIG.C.pgjdtK_9X30vwi.jfif" beforeDir="false" />
-      <change beforePath="D:/VideoSite/main/media/prev_photo/image.png" beforeDir="false" />
-      <change beforePath="D:/VideoSite/main/media/prev_photo/image_13.png" beforeDir="false" />
-      <change beforePath="D:/VideoSite/main/media/prev_photo/image_13_1zWeoKd.png" beforeDir="false" />
-      <change beforePath="D:/VideoSite/main/media/prev_photo/image_13_mqUWkq9.png" beforeDir="false" />
-      <change beforePath="D:/VideoSite/main/media/prev_photo/image_PRXWHEZ.png" beforeDir="false" />
-      <change beforePath="D:/VideoSite/main/media/prev_photo/image_qr3Vsw2.png" beforeDir="false" />
-      <change beforePath="D:/VideoSite/main/media/prev_photo/photo_2022-04-04_17-11-27.jpg" beforeDir="false" />
-      <change beforePath="D:/VideoSite/main/media/prev_photo/zo-razafindramamba-H7pP1T-f62k-unsplash.jpg" beforeDir="false" />
-      <change beforePath="D:/VideoSite/main/media/profile_photo/OIG.C.pgjdtK.jfif" beforeDir="false" />
-      <change beforePath="D:/VideoSite/main/media/profile_photo/OIG.C.pgjdtK_lHvJfNR.jfif" beforeDir="false" />
-      <change beforePath="D:/VideoSite/main/media/profile_photo/OIG.jfif" beforeDir="false" />
-      <change beforePath="D:/VideoSite/main/media/profile_photo/image_13.png" beforeDir="false" />
-      <change beforePath="D:/VideoSite/main/media/profile_photo/tai-ngo-vVIq9vb7RvI-unsplash.jpg" beforeDir="false" />
-      <change beforePath="D:/VideoSite/main/media/videos/12.mp4" beforeDir="false" />
-      <change beforePath="D:/VideoSite/main/media/videos/2022-06-03_18.41.31.mp4" beforeDir="false" />
-      <change beforePath="D:/VideoSite/main/media/videos/307441847_650932519703249_8697944265192641288_n.mp4" beforeDir="false" />
-      <change beforePath="D:/VideoSite/main/media/videos/4.mp4" beforeDir="false" />
-      <change beforePath="D:/VideoSite/main/media/videos/8_марта.MP4" beforeDir="false" />
-      <change beforePath="D:/VideoSite/main/media/videos/8_марта_7g6DG3G.MP4" beforeDir="false" />
-      <change beforePath="D:/VideoSite/main/media/videos/8_марта_yuzpqCI.MP4" beforeDir="false" />
-      <change beforePath="D:/VideoSite/main/media/videos/IMG_20230609_225529_970.jpg" beforeDir="false" />
-      <change beforePath="D:/VideoSite/main/media/videos/IMG_20230609_225529_970_Y181OFY.jpg" beforeDir="false" />
-      <change beforePath="D:/VideoSite/main/media/videos/IMG_2100.MP4" beforeDir="false" />
-      <change beforePath="D:/VideoSite/main/media/videos/IMG_3181.MP4" beforeDir="false" />
-      <change beforePath="D:/VideoSite/main/media/videos/OIG.C.pgjdtK.jfif" beforeDir="false" />
-      <change beforePath="D:/VideoSite/main/media/videos/animation.gif.gif.mp4" beforeDir="false" />
-      <change beforePath="D:/VideoSite/main/media/videos/animation.gif.gif_81jnh6m.mp4" beforeDir="false" />
-      <change beforePath="D:/VideoSite/main/media/videos/animation.gif.gif_YNgiaIh.mp4" beforeDir="false" />
-      <change beforePath="D:/VideoSite/main/media/videos/doc_2022-04-04_18-09-35.mp4" beforeDir="false" />
-      <change beforePath="D:/VideoSite/main/media/videos/video_2022-11-16_02-53-28.mp4" beforeDir="false" />
-      <change beforePath="D:/VideoSite/main/media/videos/video_2022-11-21_00-56-44.mp4" beforeDir="false" />
-      <change beforePath="D:/VideoSite/main/media/videos/video_2022-11-27_15-03-24.mp4" beforeDir="false" />
-      <change beforePath="D:/VideoSite/main/videosite/forms.py" beforeDir="false" afterPath="D:/VideoSite/main/videosite/forms.py" afterDir="false" />
+      <change beforePath="D:/VideoSite/main/db.sqlite3" beforeDir="false" afterPath="D:/VideoSite/main/db.sqlite3" afterDir="false" />
       <change beforePath="D:/VideoSite/main/videosite/models.py" beforeDir="false" afterPath="D:/VideoSite/main/videosite/models.py" afterDir="false" />
+      <change beforePath="D:/VideoSite/main/videosite/static/videosite/css/style_home.css" beforeDir="false" afterPath="D:/VideoSite/main/videosite/static/videosite/css/style_pages.css" afterDir="false" />
+      <change beforePath="D:/VideoSite/main/videosite/templates/videosite/deleteform.html" beforeDir="false" afterPath="D:/VideoSite/main/videosite/templates/videosite/deleteform.html" afterDir="false" />
       <change beforePath="D:/VideoSite/main/videosite/templates/videosite/detail.html" beforeDir="false" afterPath="D:/VideoSite/main/videosite/templates/videosite/detail.html" afterDir="false" />
       <change beforePath="D:/VideoSite/main/videosite/templates/videosite/formpage.html" beforeDir="false" afterPath="D:/VideoSite/main/videosite/templates/videosite/formpage.html" afterDir="false" />
-      <change beforePath="D:/VideoSite/main/videosite/urls.py" beforeDir="false" afterPath="D:/VideoSite/main/videosite/urls.py" afterDir="false" />
-      <change beforePath="D:/VideoSite/main/videosite/views.py" beforeDir="false" afterPath="D:/VideoSite/main/videosite/views.py" afterDir="false" />
+      <change beforePath="D:/VideoSite/main/videosite/templates/videosite/home.html" beforeDir="false" afterPath="D:/VideoSite/main/videosite/templates/videosite/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,21 +40,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/pages",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/pages&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\VideoSite\main\videosite\templates\videosite" />
       <recent name="D:\VideoSite\main\videosite" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\VideoSite\main\videosite\templates\videosite\headers" />
       <recent name="D:\VideoSite\main\videosite\static\videosite\css" />
       <recent name="D:\VideoSite\main\videosite\templates\videosite" />
       <recent name="D:\VideoSite\main\media\profile_photo" />
