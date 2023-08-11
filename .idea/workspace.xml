@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6553938b-6f82-4873-8ecb-0556d940ac3e" name="Changes" comment="">
-      <change afterPath="D:/VideoSite/main/videosite/templates/videosite/headers/head_for_forms.html" afterDir="false" />
-      <change afterPath="D:/VideoSite/main/videosite/templates/videosite/headers/head_for_pages.html" afterDir="false" />
       <change beforePath="D:/VideoSite/.idea/workspace.xml" beforeDir="false" afterPath="D:/VideoSite/.idea/workspace.xml" afterDir="false" />
       <change beforePath="D:/VideoSite/main/db.sqlite3" beforeDir="false" afterPath="D:/VideoSite/main/db.sqlite3" afterDir="false" />
-      <change beforePath="D:/VideoSite/main/videosite/models.py" beforeDir="false" afterPath="D:/VideoSite/main/videosite/models.py" afterDir="false" />
-      <change beforePath="D:/VideoSite/main/videosite/static/videosite/css/style_home.css" beforeDir="false" afterPath="D:/VideoSite/main/videosite/static/videosite/css/style_pages.css" afterDir="false" />
-      <change beforePath="D:/VideoSite/main/videosite/templates/videosite/deleteform.html" beforeDir="false" afterPath="D:/VideoSite/main/videosite/templates/videosite/deleteform.html" afterDir="false" />
-      <change beforePath="D:/VideoSite/main/videosite/templates/videosite/detail.html" beforeDir="false" afterPath="D:/VideoSite/main/videosite/templates/videosite/detail.html" afterDir="false" />
+      <change beforePath="D:/VideoSite/main/videosite/forms.py" beforeDir="false" afterPath="D:/VideoSite/main/videosite/forms.py" afterDir="false" />
       <change beforePath="D:/VideoSite/main/videosite/templates/videosite/formpage.html" beforeDir="false" afterPath="D:/VideoSite/main/videosite/templates/videosite/formpage.html" afterDir="false" />
-      <change beforePath="D:/VideoSite/main/videosite/templates/videosite/home.html" beforeDir="false" afterPath="D:/VideoSite/main/videosite/templates/videosite/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

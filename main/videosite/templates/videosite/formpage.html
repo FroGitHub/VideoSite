@@ -5,7 +5,7 @@
         <form method="post" enctype="multipart/form-data">
         {% csrf_token %}
         {% for i in form %}
-            <label for="{{ i.id_for_label }}"></label><p>{{ i }}</p>
+            <label for="{{ i.id_for_label }}">{{ i.label }}</label><p>{{ i }}</p>
         {% endfor %}
          <button class="button" type="submit">{{ button_text }}</button>
          {% if title == 'Редактор' %}
@@ -14,11 +14,4 @@
         </form>
 
     </div>
-
-<h6>
-Увага, якщо ви створюєте відео:
-перший файл - прев'ю, другий - відео.
-Все буде КОЛИСЬ виправлено :3
-</h6>
-
 {% endblock %}

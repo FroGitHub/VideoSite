@@ -33,7 +33,7 @@ class RegisterForm(UserCreationForm):
 
 
 class LoginForm(AuthenticationForm):
-    username = forms.CharField(label='name', widget=forms.TextInput(attrs={'class': 'text',
+    username = forms.CharField(label="Ім'я", widget=forms.TextInput(attrs={'class': 'text',
                                                                            'placeholder': 'login'}))
-    password = forms.CharField(label='pass', widget=forms.PasswordInput(attrs={'class': 'text',
+    password = forms.CharField(label='Пароль', widget=forms.PasswordInput(attrs={'class': 'text',
                                                                                'placeholder': 'password'}))
